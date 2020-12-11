@@ -2,7 +2,7 @@ if(navigator.serviceWorker){
     if(window.location.href.includes("localhost")){
         navigator.serviceWorker.register("/sw.js");
     } else{
-        navigator.serviceWorker.register("/ApiRestBreakingBad/sw.js");
+        navigator.serviceWorker.register("/ApiBreakingBad/sw.js");
     }
 }
 
